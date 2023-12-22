@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <div class="parent-container">
+      <div class="all-container">
+        <header>
+          <h4 class="title">calc</h4>
+          <div class="theme-container">
+            <span class="theme-title">THEME</span>
+            <div class="theme-switch-container">
+              <div class="numbers-container">
+                <span class="one">1</span>
+                <span class="two">2</span>
+                <span class="three">3</span>
+              </div>
+              <div class="sub-container"></div>
+              <input checked type="radio" class="input-one" name='themes' data-class="one" />
+              <input type="radio" class="input-two" name='themes' data-class="two" />
+              <input type="radio" class="input-three" name='themes' data-class="three" />
+            </div>
+          </div>
+        </header>
+        <div class="screen-container">
+          <input disabled  class="screen-text"></input>
+        </div>
+        <div class="calculator-container">
+          <div class="number">7</div>
+          <div class="number">8</div>
+          <div class="number">9</div>
+          <div class="delete">DEL</div>
+          <div class="number">4</div>
+          <div class="number">5</div>
+          <div class="number">6</div>
+          <div class="number operator plus-operator" data-operation="+">+</div>
+          <div class="number">1</div>
+          <div class="number">2</div>
+          <div class="number">3</div>
+          <div class="number operator minus-operator" data-operation="-">-</div>
+          <div class="number dot">.</div>
+          <div class="number">0</div>
+          <div class="number operator division-operator" data-operation="/">/</div>
+          <div class="number operator multiplication-operator" data-operation="*">x</div>
+          <div class="reset">RESET</div>
+          <div class="equal">=</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
